@@ -1,7 +1,11 @@
 <template>
-  <div :class="`${theme}`">
+  <div :class="`${theme} h-full`">
     <Header></Header>
-    <slot />
+    <div class="bg-bg2 h-full">
+      <div class="container mx-auto">
+        <slot />
+      </div>
+    </div>
   </div>
 </template>
 <script setup>

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body, #__nuxt {
+  background-image: url("@/assets/images/bg.svg");
+  @apply h-full;
+}

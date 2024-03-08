@@ -30,7 +30,7 @@ export default {
           // colors is used here for demonstration purposes
           colors: {
             primary: '#333333',
-            bg: '#ffffff'
+            bg: '#ffffff',
           }
         }
       },
@@ -44,7 +44,8 @@ export default {
           extend: {
             colors: {
               primary: '#ffffff',
-              bg: '#151516'
+              bg: '#151516',
+              bg2: '#191919'
             }
           }
         }
